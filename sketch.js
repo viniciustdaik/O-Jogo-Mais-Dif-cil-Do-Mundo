@@ -33,6 +33,10 @@ function preload(){
 function setup() {
   createCanvas(400, 400);//400, 400
 
+  var friendimg = createImg('./characters/friendOG.png');
+  friendimg.position(width - width - width, height - height - height);
+  friendimg.size(15, 15);
+
   wall1 = createSprite(40, 160, 5, 150);
   wall1.shapeColor = "lightgreen";
 
